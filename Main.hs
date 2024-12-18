@@ -71,7 +71,7 @@ instance Enum HandRank where
   fromEnum StraightFlush   = 9 
   fromEnum RoyalFlush      = 10 -- The strongest hand rank
 
-  -- Mapping integers to HandRank.
+  -- Mapping the integers to HandRank.
   toEnum 1  = HighCard
   toEnum 2  = OnePair
   toEnum 3  = TwoPair
