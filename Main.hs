@@ -69,7 +69,7 @@ instance Enum HandRank where
   fromEnum FullHouse       = 7 
   fromEnum FourOfAKind     = 8 
   fromEnum StraightFlush   = 9 
-  fromEnum RoyalFlush      = 10 -- The strongest hand
+  fromEnum RoyalFlush      = 10 -- The strongest hand rank
 
   -- Mapping integers to HandRank.
   toEnum 1  = HighCard
